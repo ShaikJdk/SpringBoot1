@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @ResponseBody
-@RequestMapping("/hi")
+@RequestMapping("/hellojenkins")
 public class Controller1 {
 
 	@GetMapping
 	public String getTreeById() {
-		return "Hello";
+		return "Hello Jenkins";
 	}
 }
